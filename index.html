@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amanah Coming Soon</title>
+  <!-- Using a Google Font for a modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: url('path/to/your/background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      overflow: hidden;
+    }
+    /* A semi-transparent overlay to improve text readability */
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    .email-form {
+      margin-top: 20px;
+    }
+    .email-form input[type="email"] {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 25px;
+      width: 300px;
+      margin-right: 10px;
+    }
+    .email-form button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 25px;
+      background: #e63946;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .email-form button:hover {
+      background: #d62828;
+    }
+    .social {
+      margin-top: 20px;
+    }
+    .social a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.5rem;
+      transition: color 0.3s ease;
+    }
+    .social a:hover {
+      color: #e63946;
+    }
+    /* Responsive design for mobile devices */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      .email-form input[type="email"] {
+        width: 80%;
+        margin: 0 auto 10px;
+        display: block;
+      }
+      .email-form button {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Amanah</h1>
+    <p>
+      We're building a social platform (feeds, reels, messaging, and more) guided by Muslim values, cultural respect, and purposeful moderation. Leveraging Azure’s cloud and advanced AI, our app will empower nearly 2 billion Muslims and millions more globally.
+    </p>
+    <form class="email-form">
+      <input type="email" placeholder="Enter your email" required>
+      <button type="submit">Notify Me</button>
+    </form>
+    <div class="social">
+      <a href="#" target="_blank">Facebook</a>
+      <a href="#" target="_blank">Twitter</a>
+      <a href="#" target="_blank">Instagram</a>
+    </div>
+  </div>
+</body>
+</html>
